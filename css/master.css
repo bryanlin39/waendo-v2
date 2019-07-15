@@ -1,0 +1,155 @@
+/* colors from dark to light
+1f3640
+3e6c7f
+71c5e8
+a4daf0
+f2f9fc */
+
+body {
+  background-color: #f2f9fc;
+}
+
+h1 {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-weight: bold !important;
+  color: #71c5e8;
+}
+
+body p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #1f3640;
+}
+
+body a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #1f3640;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #71c5e8;
+  text-decoration: none;
+}
+
+#navbar-complete {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top: 5px solid #71c5e8;
+}
+
+#waendo-brand {
+  max-width: 50%;
+}
+
+i#location-icon {
+  font-size: 20px;
+  color: #d74a3e;
+}
+
+#navbar-complete button.btn {
+  padding: 10px 20px;
+  background-color: #71c5e8;
+  border: 1px solid #71c5e8;
+  border-radius: 25px ;
+}
+
+#navbar-complete button.btn:hover {
+  background-color: #3e6c7f;
+  border: 1px solid #3e6c7f;
+}
+
+button a, button a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#navbar-complete hr {
+  margin-bottom: 10px;
+}
+
+nav .nav-link {
+  font-size: 14px;
+}
+
+#home-intro {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#home-intro h3 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #1f3640;
+}
+
+#home-intro p {
+  padding-left: 15px;
+  padding-right: 50px;
+  font-size: 16px;
+  border-left: 2px solid #71c5e8;
+}
+
+.parallax {
+  background-image: url(../img/waendo-lobby-2.jpg);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home-meet-doctors {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#home-meet-doctors h1 {
+  margin-bottom: 20px;
+}
+
+#home-meet-doctors .card {
+  background-color: #f2f9fc;
+  box-shadow: 0px 2px 6px #b9bdc4;
+}
+
+#home-meet-doctors .doctor-quote {
+  margin-bottom: 10px;
+}
+
+#home-meet-doctors .copy {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#seattle-met-awards {
+  margin-top: 40px;
+}
+
+#seattle-met-awards .col-sm-2 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#seattle-met-awards img {
+  max-width: 100%;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+  nav .navbar-nav {
+    display: table;
+    width: 100%;
+  }
+
+  .navbar-nav > li {
+    display: table-cell;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+}
